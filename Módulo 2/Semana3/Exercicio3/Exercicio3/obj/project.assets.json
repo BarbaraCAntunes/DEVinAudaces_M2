@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\barba\\Dropbox\\00_Barbara - DEV\\DEVin[Audaces]_M2\\Módulo 2\\Semana3\\Exercicio3\\Exercicio3\\Exercicio3\\Exercicio3.csproj",
+      "projectUniqueName": "C:\\Users\\barba\\Dropbox\\00_Barbara - DEV\\DEVin[Audaces]_M2\\Módulo 2\\Semana3\\Exercicio3\\Exercicio3\\Exercicio3.csproj",
       "projectName": "Exercicio3",
-      "projectPath": "C:\\Users\\barba\\Dropbox\\00_Barbara - DEV\\DEVin[Audaces]_M2\\Módulo 2\\Semana3\\Exercicio3\\Exercicio3\\Exercicio3\\Exercicio3.csproj",
+      "projectPath": "C:\\Users\\barba\\Dropbox\\00_Barbara - DEV\\DEVin[Audaces]_M2\\Módulo 2\\Semana3\\Exercicio3\\Exercicio3\\Exercicio3.csproj",
       "packagesPath": "C:\\Users\\barba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\barba\\Dropbox\\00_Barbara - DEV\\DEVin[Audaces]_M2\\Módulo 2\\Semana3\\Exercicio3\\Exercicio3\\Exercicio3\\obj\\",
+      "outputPath": "C:\\Users\\barba\\Dropbox\\00_Barbara - DEV\\DEVin[Audaces]_M2\\Módulo 2\\Semana3\\Exercicio3\\Exercicio3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
