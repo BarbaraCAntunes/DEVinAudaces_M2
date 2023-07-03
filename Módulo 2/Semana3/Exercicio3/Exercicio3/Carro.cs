@@ -32,6 +32,15 @@ namespace Carros
 
         }
 
+        public void ListarCarros()
+        {
+            foreach (var carro in Carros)
+            {
+                Console.WriteLine(carro);
+                Console.WriteLine(carro.Proprietario);
+            }
+        }
+
         public override string ToString()
         {
             return $"Marca: {Marca} " +
