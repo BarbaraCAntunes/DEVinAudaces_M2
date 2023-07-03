@@ -3,37 +3,40 @@
     internal class ContaBancária
     {
         private int _numeroConta;
-        private double _saldoConta;
+        private Cliente _cliente;
 
-        public ContaBancária(int numeroConta)
+        public ContaBancária(int numeroConta, Cliente cliente)
         {
             _numeroConta = numeroConta;
-            _saldoConta = 0;
+            _cliente = cliente;
+        }
+
+        public void ExibirDados()
+        {
+            Console.WriteLine($"Número da conta: {_numeroConta}\n  {_cliente} ");
         }
 
         public void Depositar(double valor)
         {
-            _saldoConta += valor;
+            ;
         }
 
-        public void Saca(double valor)
+        public void Sacar(double valor)
         {
-            if (valor <= _saldoConta)
-            {
-                _saldoConta -= valor;
-            }
-            else
-            {
-                Console.WriteLine("Saldo insuficiente!");
-            }
+            ;
         }
 
-        public void GetSaldo()
+        public void getSaldo()
         {
-            double saldo = _saldoConta;
-            Console.WriteLine($"O saldo da sua conta é: {saldo}");
+
         }
 
 
+        public override string ToString()
+        {
+            return $"Número da conta: {_numeroConta}" +
+                   $"{_cliente}" +
+                   $"Saldo da conta: {_saldoConta}";
+        }
     }
 }
