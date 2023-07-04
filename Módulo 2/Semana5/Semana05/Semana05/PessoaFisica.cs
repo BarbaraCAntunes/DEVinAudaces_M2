@@ -4,7 +4,7 @@
     {
         public string CPF { get; set; }
         public DateTime DataNascimento { get; set; }
-        public string Nome { get; set; }
+
 
         public override void ResumoCliente()
         {

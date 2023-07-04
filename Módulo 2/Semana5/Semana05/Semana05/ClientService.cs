@@ -2,7 +2,7 @@
 
 namespace Semana05
 {
-    public class ClienteService
+    public class ClienteService : IClienteService
     {
         private static List<Cliente> clientes = new List<Cliente>();
 
@@ -26,6 +26,9 @@ namespace Semana05
             Console.WriteLine("Informe o número da conta:");
             var numeroConta = Console.ReadLine();
 
+            Console.WriteLine("Informe o nome completo:");
+            var nome = Console.ReadLine();
+
             Console.WriteLine("Informe o endereço:");
             var endereco = Console.ReadLine();
 
@@ -38,6 +41,7 @@ namespace Semana05
             var cliente = new PessoaFisica
             {
                 NumeroConta = numeroConta,
+                Nome = nome,
                 Endereco = endereco,
                 CPF = cpf,
                 DataNascimento = dataNascimento,
@@ -59,6 +63,9 @@ namespace Semana05
             Console.WriteLine("Informe o número da conta:");
             var numeroConta = Console.ReadLine();
 
+            Console.WriteLine("Informe a razão social da empresa:");
+            var razaoSocial = Console.ReadLine();
+
             Console.WriteLine("Informe o endereço:");
             var endereco = Console.ReadLine();
 
@@ -68,6 +75,7 @@ namespace Semana05
             var cliente = new PessoaJuridica
             {
                 NumeroConta = numeroConta,
+                RazaoSocial = razaoSocial,
                 Endereco = endereco,
                 CNPJ = cnpj,
                 Saldo = 0
