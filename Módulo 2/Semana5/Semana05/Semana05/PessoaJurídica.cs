@@ -5,6 +5,8 @@
         public string CNPJ { get; set; }
         public string RazaoSocial { get; set; }
 
+        public string Nome { get; set; }
+
         public override void ResumoCliente()
         {
             base.ResumoCliente();
