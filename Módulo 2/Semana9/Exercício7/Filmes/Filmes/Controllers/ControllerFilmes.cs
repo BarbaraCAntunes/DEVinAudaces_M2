@@ -31,7 +31,7 @@ namespace Filmes.Controllers
 
             if (filme == null)
             {
-                return NotFound();
+                return NotFound("Filme não encontrado!");
             }
 
             return filme;
@@ -46,20 +46,20 @@ namespace Filmes.Controllers
         {
             if (id != filme.Id)
             {
-                return BadRequest();
+                return BadRequest("Os Ids não são iguais!");
             }
 
             var filmeExistente = MockData.Filmes.FirstOrDefault(f => f.Id == id);
 
             if (filmeExistente == null)
             {
-                return NotFound();
+                return NotFound("Filme não encontrado!");
             }
 
             var index = MockData.Filmes.IndexOf(filmeExistente);
             MockData.Filmes[index] = filme;
 
-            return NoContent();
+            return Ok("Filme atualizado com sucesso!");
         }
 
         /// <summary>
@@ -72,7 +72,7 @@ namespace Filmes.Controllers
             filme.Id = MockData.Filmes.Max(f => f.Id) + 1;
             MockData.Filmes.Add(filme);
 
-            return CreatedAtAction("GetFilme", new { id = filme.Id }, filme);
+            return CreatedAtAction("Filme criado!", new { id = filme.Id }, filme);
         }
 
         /// <summary>
@@ -86,12 +86,12 @@ namespace Filmes.Controllers
 
             if (filme == null)
             {
-                return NotFound();
+                return NotFound("Filme não encontrado!");
             }
 
             MockData.Filmes.Remove(filme);
 
-            return NoContent();
+            return Ok("O filme foi removido com sucesso!");
         }
     }
 }
