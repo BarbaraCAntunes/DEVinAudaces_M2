@@ -10,6 +10,7 @@ public class Program
         Console.WriteLine("Deseja criar uma conta para Pessoa Física ou Jurídica? (F/J)");
         var resposta = Console.ReadLine();
 
+        
         if (resposta.ToUpper() == "F")
         {
             CriarContaPessoaFisica();
@@ -17,7 +18,7 @@ public class Program
         else if (resposta.ToUpper() == "J")
         {
             CriarContaPessoaJuridica();
-        }
+        } 
     }
 
     private static void CriarContaPessoaFisica()
