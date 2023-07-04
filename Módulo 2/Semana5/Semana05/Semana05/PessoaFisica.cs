@@ -1,12 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Semana05
 {
-    internal class PessoaFisica
+    public class PessoaFisica : Cliente
     {
+        public string CPF { get; set; }
+
+        public override void ResumoCliente()
+        {
+            base.ResumoCliente();
+            Console.WriteLine($"CPF: {CPF}");
+        }
     }
 }
