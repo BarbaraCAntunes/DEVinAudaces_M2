@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "A8fYGiHPoJqPzbluqll+8SagSAa2SMJdSD/0/PXE0o46WHuAzjiE0w38Z72algX+aAt1Q6sBnEps6JDcF80i5g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\barba\\Dropbox\\00_Barbara - DEV\\DEVin[Audaces]_M2\\Módulo 2\\Semana9\\Exercício7\\Filmes\\Filmes\\Filmes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\barba\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
+    "C:\\Users\\barba\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\barba\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\barba\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\barba\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\barba\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\barba\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
